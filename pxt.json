@@ -1,0 +1,40 @@
+{
+    "name": "Barrera",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "wuKong": "github:elecfreaks/pxt-wukong#v1.5.4",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5",
+        "pxt-kitronik-move-motor": "github:kitronikltd/pxt-kitronik-move-motor#v0.4.17",
+        "pxt-cutebotpro": "github:elecfreaks/pxt-cutebot-pro#v1.0.55",
+        "Grove": "github:seeed-studio/pxt-grove#v0.5.0",
+        "servo": "*",
+        "maqueen": "github:dfrobot/pxt-maqueen#v1.7.2",
+        "datalogger": "*",
+        "pxt-pca9685": "github:jdarling/pxt-pca9685#v0.0.5",
+        "MaqueenPlus": "github:dfrobot/pxt-dfrobot-maqueenplus#v1.5.1",
+        "microturtle": "github:microsoft/pxt-microturtle#v0.0.9",
+        "pxt-kitronik-servo-lite": "github:kitronikltd/pxt-kitronik-servo-lite#v1.0.9",
+        "linebeacon": "github:pizayanz/pxt-linebeacon#v0.0.14",
+        "ucl-junkrobot": "github:chevyng/pxt-ucl-junkrobot#v0.0.12"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.19",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
